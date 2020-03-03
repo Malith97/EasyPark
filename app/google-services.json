@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "867298292508",
+    "firebase_url": "https://cyclerent-a8daf.firebaseio.com",
+    "project_id": "cyclerent-a8daf",
+    "storage_bucket": "cyclerent-a8daf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867298292508:android:d9646914a7808b19b880d9",
+        "android_client_info": {
+          "package_name": "com.synnlabz.easypark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867298292508-3ffcjqcnprfkvcpqvauoeae1fl2s3r6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.synnlabz.easypark",
+            "certificate_hash": "aace340665eef65cc8bab718a4db05d6af392510"
+          }
+        },
+        {
+          "client_id": "867298292508-vh9dsabt2sn7kq2hq8qlf30s9p9un068.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpJlHkOZaPPvdn0F2DuBOVVIwTjZrfX3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867298292508-vh9dsabt2sn7kq2hq8qlf30s9p9un068.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
