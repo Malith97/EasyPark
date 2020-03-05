@@ -50,7 +50,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true"
-        android:layout_below="@id/toolbar">
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/bottom_navigation">
 
         <LinearLayout
             android:id="@+id/container"
@@ -89,68 +90,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="?attr/selectableItemBackground"
-                    android:orientation="horizontal"
-                    android:padding="20sp">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:layout_margin="10dp"
-                                android:layout_marginEnd="20sp"
-                                android:layout_marginRight="20sp"
-                                android:backgroundTint="@color/black"
-                                android:src="@drawable/ic_bio" />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <EditText
-                                android:id="@+id/bikeID"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="10sp"
-                                android:layout_marginLeft="20sp"
-                                android:background="@android:color/transparent"
-                                android:hint="Emnter Bicycle ID Here"
-                                android:fontFamily="@font/roboto_regular"
-                                android:inputType="text"
-                                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                                android:textColor="#212121"
-                                android:textCursorDrawable="@color/black" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="10sp"
-                                android:layout_marginLeft="20sp"
-                                android:layout_marginTop="8dp"
-                                android:text="Bicycle ID"
-                                android:fontFamily="@font/roboto_regular"
-                                android:textColor="#727272" />
-
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </LinearLayout>
 
                 <include layout="@layout/item_divider" />
 
@@ -193,7 +132,7 @@
                                 android:layout_marginStart="10sp"
                                 android:layout_marginLeft="20sp"
                                 android:background="@android:color/transparent"
-                                android:hint="Emnter Bicycle Name Here"
+                                android:hint="Enter Bicycle Name Here"
                                 android:fontFamily="@font/roboto_regular"
                                 android:inputType="text"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -250,7 +189,7 @@
                         android:orientation="vertical">
 
                         <EditText
-                            android:id="@+id/phone"
+                            android:id="@+id/price"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10sp"
@@ -301,7 +240,7 @@
                         android:orientation="vertical">
 
                         <EditText
-                            android:id="@+id/age"
+                            android:id="@+id/extra"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="10sp"
@@ -341,7 +280,7 @@
                         android:id="@+id/addBicycle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/phone"
+                        android:layout_below="@+id/price"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="20dp"
